@@ -1,0 +1,1 @@
+import{a as e}from"./business-screens-BnCIXHsd.js";var t=e;export{t as component};

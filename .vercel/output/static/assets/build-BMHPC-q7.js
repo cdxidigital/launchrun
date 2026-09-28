@@ -1,0 +1,1 @@
+import{n as e}from"./build-screens-D1jW3D3k.js";var t=e;export{t as component};

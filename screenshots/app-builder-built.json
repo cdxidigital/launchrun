@@ -1,0 +1,41 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "launch/run",
+      "hasCanvas": false,
+      "bodyTextLen": 2595,
+      "bodyTextHash": "c5d078eb8d8f920a269bae0af9fe54439bfed2e88f46fb004d585e512b63805e",
+      "bodyTextPrefix": "Skip to content launch/run Pricing Sign in Start free launch/run",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "launch/run",
+      "hasCanvas": false,
+      "bodyTextLen": 2587,
+      "bodyTextHash": "442c06ca8d8a116747aa8f2aa824351947d8970053b29def4c01ba9215ce4eff",
+      "bodyTextPrefix": "Skip to content launch/run Sign in Start free launch/run for fou",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text replaced (similar length, page start changed)",
+    "mobile: body text replaced (similar length, page start changed)"
+  ]
+}

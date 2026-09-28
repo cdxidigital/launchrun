@@ -1,0 +1,1 @@
+import{n as e}from"./system-screens-J-uGgjzC.js";var t=e;export{t as component};

@@ -1,0 +1,1 @@
+import{r as e}from"./ops-screens-B5HAlhkc.js";var t=e;export{t as component};

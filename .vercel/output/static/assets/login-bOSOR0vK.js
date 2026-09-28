@@ -1,0 +1,1 @@
+import{s as e}from"./link-DdUm5-r9.js";import{t}from"./auth-screen-CEKbcqqn.js";var n=e(),r=()=>(0,n.jsx)(t,{mode:`signin`});export{r as component};

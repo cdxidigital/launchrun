@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-ink: #0b0d10;
+  --color-panel: #12171d;
+  --color-raised: #1a2129;
+  --color-line: #2a3542;
+  --color-fg: #f8fafc;
+  --color-muted: #94a3b8;
+  --color-action: #b7f36a;
+  --color-action-ink: #14210c;
+  --color-signal: #7ba2ff;
+  --color-info: #67e8f9;
+  --color-danger: #d92d20;
+  --color-on-danger: #fff7f6;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100%;
+    background: var(--color-ink);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-action);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background: var(--color-action);
+    color: var(--color-action-ink);
+  }
+}
+
+@utility glass {
+  background: color-mix(in srgb, var(--color-panel) 82%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-fg) 10%, transparent);
+  backdrop-filter: blur(16px);
+}
+
+.site {
+  color: var(--site-fg);
+  background: var(--site-bg);
+}
+
+.site[data-direction="paper"] {
+  --site-bg: #f4f1ea;
+  --site-fg: #1c1915;
+  --site-muted: #5c564c;
+  --site-accent: #3d5c22;
+  --site-accent-ink: #f6f7f2;
+  --site-card: #fffdf8;
+}
+
+.site[data-direction="night"] {
+  --site-bg: #12171d;
+  --site-fg: #f8fafc;
+  --site-muted: #94a3b8;
+  --site-accent: #b7f36a;
+  --site-accent-ink: #14210c;
+  --site-card: #1a2129;
+}
+
+.site[data-direction="signal"] {
+  --site-bg: #f8fafc;
+  --site-fg: #0b0d10;
+  --site-muted: #475569;
+  --site-accent: #2451c7;
+  --site-accent-ink: #f8fafc;
+  --site-card: #ffffff;
+}
+
+.account-slot span.rounded-full {
+  background: color-mix(in srgb, var(--color-fg) 14%, transparent);
+  color: var(--color-fg);
+}
+
+.account-slot button,
+.account-slot span {
+  color: var(--color-fg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,1 @@
+import{i as e}from"./growth-screens-Dq1XOCBT.js";var t=e;export{t as component};

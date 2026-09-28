@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "launch/run",
+      "hasCanvas": false,
+      "bodyTextLen": 2576,
+      "bodyTextHash": "f3961c001d41a04b37f62db498eed589375b5865dfdfad799dce0aa3d72c901d",
+      "bodyTextPrefix": "Skip to content launch/run Pricing Start free launch/run for fou",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "launch/run",
+      "hasCanvas": false,
+      "bodyTextLen": 2568,
+      "bodyTextHash": "463562f6ba5f545a99d89100708a58e37603c3d78c64b327edd925e0142cbf4e",
+      "bodyTextPrefix": "Skip to content launch/run Start free launch/run for founders Bu",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
